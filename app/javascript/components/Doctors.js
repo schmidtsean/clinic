@@ -1,9 +1,9 @@
 import React from "react";
-
+import Navbar from './Navbar';
 const Doctors = ({ doctors }) => {
   return (
     <>
-    
+      <Navbar />
       <h1>Doctors</h1>
       {/* <a href="/doctors/new">Add Doctor</a> */}
       {/* <br /> */}

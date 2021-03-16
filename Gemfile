@@ -27,6 +27,7 @@ gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.4', require: false
 gem 'react-rails'
 gem 'devise'
+gem 'materialize-sass'
 group :development, :test do
  gem 'pry'
  gem 'faker'
