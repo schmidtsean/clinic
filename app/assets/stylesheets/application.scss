@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+
+
+ @import 'materialize';
+ @import 'flash';
+
+ nav {
+   background-color: lightseagreen;
+   border-radius: 0 0 10px 10px;
+   
+
+ }
+
+ nav ul {
+  display: flex;
+  justify-content: space-around;
+ }
+
+
+
+ #docHead {
+   text-align: center;
+   font-weight: 800;
+ }

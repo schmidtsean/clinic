@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from './Navbar';
 
 const DoctorNew = ({ doctor }) => {
   const { first_name, last_name, errors } = doctor;
@@ -6,6 +7,7 @@ const DoctorNew = ({ doctor }) => {
   const defaultLastName = last_name ? last_name : "";
   return (
   <>
+  <Navbar />
     <h1>Add Doctors</h1>
     { errors && errors }
     <form action="/doctors" method="post">

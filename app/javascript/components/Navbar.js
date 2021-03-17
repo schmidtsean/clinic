@@ -4,13 +4,13 @@ const Navbar = () => (
   <nav>
     <ul>
       <li>
-        <a href="/doctors"></a>
+        <a href="/appointments/new">My Appointments</a>
       </li>
       <li>
        <a href="/doctors/new">Add A New Doctor</a>
       </li>
       <li>
-       <a href="/users/sign_out">Logout</a>
+       <a href="/users/sign_out" data-method="delete">Logout</a>
       </li>
 
       
@@ -22,4 +22,4 @@ const Navbar = () => (
   </nav>
 )
 
-export default Navbar;
+export default Navbar

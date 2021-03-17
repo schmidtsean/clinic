@@ -1,9 +1,11 @@
 import React from "react";
+import Navbar from './Navbar';
 
 const Doctor = ({ doctor }) => {
     const { id, first_name, last_name } = doctor;
     return (
       <>
+      <Navbar />
         <div>
           <h1>{first_name}, {last_name} </h1>
           <hr />
