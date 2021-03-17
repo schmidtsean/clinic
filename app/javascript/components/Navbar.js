@@ -4,7 +4,7 @@ const Navbar = () => (
   <nav>
     <ul>
       <li>
-        <a href="/doctors"></a>
+        <a href="/appointments/new">My Appointments</a>
       </li>
       <li>
        <a href="/doctors/new">Add A New Doctor</a>

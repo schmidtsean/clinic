@@ -4,7 +4,7 @@ const Doctors = ({ doctors }) => {
   return (
     <>
       <Navbar />
-      <h1>Doctors</h1>
+      <h1 id="docHead">Doctors</h1>
       {/* <a href="/doctors/new">Add Doctor</a> */}
       {/* <br /> */}
       <h2>{ doctors.length <= 0 ? "No Doctors" : "" }</h2> 
